@@ -30,3 +30,13 @@ describe 'Coffeebuzz', ->
 
 		it 'divisible by fifteen', ->
 			expect(coffeebuzz.isDivisibleByFifteen(1)).to.be.false
+
+	describe 'should print', ->
+		it 'Coffee instead of multiples of three', ->
+			expect(coffeebuzz.play(3)).to.equal("Coffee")
+
+		it 'Buzz instead of multiples of five', ->
+			expect(coffeebuzz.play(5)).to.equal("Buzz")
+
+		it 'CoffeeBuzz instead of multiples of fifteen', ->
+			expect(coffeebuzz.play(15)).to.equal("CoffeeBuzz")

@@ -12,4 +12,12 @@ class Coffeebuzz
 	isDivisibleBy: (number, divisor) ->
 		number % divisor == 0
 
+	play: (number) ->
+		if @isDivisibleByFifteen(number)
+			return "CoffeeBuzz"
+		else if @isDivisibleByThree(number)
+			return "Coffee" 
+		else if @isDivisibleByFive(number)
+			return "Buzz"
+
 module.exports = Coffeebuzz
