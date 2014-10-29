@@ -40,3 +40,6 @@ describe 'Coffeebuzz', ->
 
 		it 'CoffeeBuzz instead of multiples of fifteen', ->
 			expect(coffeebuzz.play(15)).to.equal("CoffeeBuzz")
+
+		it 'the number itself if not divisible by 3, 5, or 15', ->
+			expect(coffeebuzz.play(1)).to.equal(1)
