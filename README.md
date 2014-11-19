@@ -6,7 +6,7 @@
 
 ###The Objective
 
-Write the counting game, Fizzbuzz, in Ruby. 
+Write the counting game, Fizzbuzz. 
 
 + When counting:
 	+ Say "fizz" instead of multiples of three
