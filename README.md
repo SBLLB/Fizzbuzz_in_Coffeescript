@@ -1,7 +1,7 @@
 ##Coffeebuzz
 
 
-#### The Fizzbuzz Kata written in Coffeescript and tested in Chai. Set as a challenge during week 7 at Maker's Academy but repeated whenever possible to improve my Coffeescript/Chai skills. 
+#### The Fizzbuzz Kata written in Coffeescript and tested with Chai/Mocha. Set as a challenge during week 7 at Maker's Academy but repeated whenever possible to improve my Coffeescript/Chai skills. 
 
 
 ###The Objective
@@ -22,6 +22,7 @@ Test the file ```$ npm test```
 ### Technologies Used
 * Coffeescript
 * Chai
+* Mocha
 * NPM
 
 
